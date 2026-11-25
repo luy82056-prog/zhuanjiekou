@@ -1,0 +1,60 @@
+转接口 v1.11.0 - 第三方版权与许可声明
+=========================================
+
+本产品包含或调用以下开源组件。各组件仍归其各自权利人所有。
+
+1. FunASR llama.cpp Runtime
+项目：https://github.com/modelscope/FunASR
+固定版本：runtime-llamacpp-v0.1.9
+组件：Windows x64 AVX2 / CUDA SenseVoice 运行时
+许可：MIT License（完整原文见 tools/funasr/licenses/FUNASR-LICENSE.txt）
+
+2. SenseVoiceSmall GGUF
+项目：https://huggingface.co/FunAudioLLM/SenseVoiceSmall-GGUF
+内置模型：sensevoice-small-q8.gguf
+SHA-256：4AE45C94422DE949B387E2E0FB10D7E14E4C42C69DB30C3444ECC7D4B844B7C5
+许可：Apache License 2.0（完整原文见 tools/funasr/licenses/APACHE-2.0.txt）
+
+3. FSMN-VAD GGUF
+项目：https://huggingface.co/FunAudioLLM/fsmn-vad-GGUF
+内置模型：fsmn-vad.gguf
+SHA-256：1270F2559C495F4E7B6E739541151027D360761A3FDA43FC147034F5719F5479
+许可：Apache License 2.0（完整原文见 tools/funasr/licenses/APACHE-2.0.txt）
+
+4. yt-dlp
+项目：https://github.com/yt-dlp/yt-dlp
+许可：The Unlicense（安装目录 tools 中同时保留上游许可文件）
+
+5. FFmpeg
+项目：https://ffmpeg.org/
+许可：随所分发构建而定。本产品保留 tools 目录中随构建提供的 FFmpeg
+许可文件；FFmpeg 本身不属于本产品原创代码。
+
+6. tkinterdnd2 / tkdnd
+项目：https://github.com/pmgagne/tkinterdnd2
+说明：用于本地文件拖放支持。
+许可：MIT License
+Copyright (c) 2020 Philippe Gagné
+
+7. 文件转换组件
+pdfplumber：https://github.com/jsvine/pdfplumber （MIT License）
+openpyxl：https://openpyxl.readthedocs.io/ （MIT License）
+pypdf：https://github.com/py-pdf/pypdf （BSD 3-Clause License）
+python-docx：https://github.com/python-openxml/python-docx （MIT License）
+
+Microsoft Office、LibreOffice 与 Calibre 在本功能阶段作为用户电脑上已经安装的
+独立程序被检测和调用，并未复制到本产品目录。它们分别遵守各自的软件许可。
+
+8. Umi-OCR / RapidOCR
+Umi-OCR：https://github.com/hiroi-sora/Umi-OCR （MIT License）
+RapidOCR：https://github.com/RapidAI/RapidOCR （Apache License 2.0）
+本产品仅内置 Umi-OCR Rapid 插件所提供的 RapidOCR-json 执行程序，以及简体中文
+PP-OCRv4 检测、方向分类、识别模型和字典，用于完全离线的图片文字识别。
+
+9. websocket-client
+项目：https://github.com/websocket-client/websocket-client
+固定版本：1.8.0
+说明：仅用于连接本机专用 Edge 的 Chrome DevTools Protocol WebSocket。
+许可：Apache License 2.0（完整原文见 licenses/websocket-client/LICENSE）
+
+各上游项目的商标、名称和版权不因本产品分发而发生转移。

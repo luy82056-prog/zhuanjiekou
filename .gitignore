@@ -1,0 +1,36 @@
+# Local data and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.mobileprovision
+*.sqlite
+*.sqlite3
+*.db
+*.log
+local.properties
+cookies*.json
+*.dmg
+*.pkg
+*.ipa
+*.apk
+.DS_Store
+# Build output
+node_modules/
+dist/
+release/
+target/
+.gradle/
+.venv/
+__pycache__/
+*.py[cod]
+DerivedData/
+xcuserdata/
+
+cookies.txt
+auth.json
+*.tsbuildinfo
